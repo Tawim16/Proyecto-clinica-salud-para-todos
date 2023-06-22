@@ -1,0 +1,67 @@
+<!<TABLAMEDICOS.html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Centro Hospitalario Salud Para Todos</h1>
+    </header>
+    <main>
+   <table id="tabla-medicos">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Numero de Cedula</th>
+      <th>Consultorio</th>
+      <th>Especialidad</th>
+      <th>Correo Electrónico</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Roberto </td>
+      <td>Malendez</td>
+      <td>100345876</td>
+      <td>304</td>
+      <td>Ginecologia</td>
+      <td>robert@hotmail.com</td>
+    </tr>
+    <tr>
+      <td>Tatiana </td>
+      <td>Diaz</td>
+      <td>199033762</td> 
+      <td>108</td>
+      <td>Neurologia</n></td>
+      <td>tatianadi@gmail.com</td>
+    </tr>
+      <tr>
+     <td>Alejandro </td>
+      <td>Paredes</td>
+      <td>100387765</td>
+        <td>204</td>
+        <td>Otologia</td>
+      <td>alejo@hotmail.com</td>
+          </tr>
+      </tr>
+      <tr>
+     <td>Ingrid </td>
+      <td>Monsalve</td>
+      <td>1003456322</td>
+     <td>204</td>
+      <td>Medicina General</td>
+      <td>ingtids@hotmail.com</td>
+          </tr>
+  </tbody>
+</table>        
+  <button
+    onclick="window.location.href='medicos.html'">Agregar Medico</button>
+       <button
+         onclick="window.location.href='index.html'">Volver al inicio</button>
