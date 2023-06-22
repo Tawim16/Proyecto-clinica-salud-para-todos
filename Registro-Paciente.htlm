@@ -1,0 +1,46 @@
+<formulariopaciente.html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Centro Hospitalario Salud Para Todos</h1>
+    </header>
+    <main>
+   <table id="tabla-pacientes">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido</th>
+      <th>Fecha de Nacimiento</th>
+      <th>Correo Electrónico</th>
+      <th>Teléfono</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pablo </td>
+      <td>Alarcon</td>
+      <td>03/09/1970</td>
+      <td>pabloa@hotmail.com</td>
+      <td>345.456789</td>
+    </tr>
+    <tr>
+      <td>Martina </td>
+      <td>Gonzalez</td>
+      <td>07/05/1960</td>
+      <td>martinagonzalez@gmail.com</td>
+      <td>4532341111</td>
+    </tr>
+  </tbody>
+</table>
+<button onclick="window.location.href='pacientes.html'">Agregar Paciente</button>
+      <button 
+        onclick="window.location.href='index.html'">Volver al inicio</button>
