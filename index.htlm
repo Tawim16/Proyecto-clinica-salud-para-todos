@@ -1,0 +1,29 @@
+<formulariopacientes.html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+  <img  src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg"width=800px"
+      alt="Logo del Centro Hospitalario Salud Para Todos">
+
+</head>
+
+<body>
+  <header>
+    <font color="#9900FF"><h1>Centro Hospitalario Salud Para Todos</h1></font>
+  </header>
+  <main class="listado-container">
+    <ul class="listado-servicios">
+      <li><a href="pacientes.html">FORMULARIO DE REGISTRO DE PACIENTES</a></li>
+      <li><a href="medicos.html">FORMULARIO DE REGISTRO DE PERSONAL MEDICO </a></li>
+      <li><a href="resgistro-pacientes.html">LISTA DE PACIENTES</a></li>
+      <li><a href="registro-medicos.html"> LISTA DE MEDICOS </a></li>
+    </ul>
+  </main>
+</body>
+
+</html>
